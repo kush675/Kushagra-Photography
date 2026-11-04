@@ -8,7 +8,7 @@ The public HTML, styles and image viewer are hosted by GitHub Pages. Original ph
 
 ## Publish with GitHub Pages
 
-In this repository, open **Settings → Pages**, choose **Deploy from a branch**, and select **main / (root)**. Save and wait for GitHub to report the deployed address. The expected project address is https://kush675.github.io/kushagra-photography-portfolio/ . An address in this README alone is not proof that publication has completed.
+In this repository, open **Settings → Pages**, choose **Deploy from a branch**, and select **main / (root)**. Save and wait for GitHub to report the deployed address. The portfolio address is https://kush675.github.io/Kushagra-Photography/ . The project was renamed to `Kushagra-Photography`; use this address when sharing or bookmarking the site.
 
 ## Owner photo management
 
