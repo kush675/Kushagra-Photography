@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const origin = 'https://kushagra-photographic-studies.aquabow1.chatgpt.site';
+  const origin = 'https://kushagra-photographic-studies.gangwarkushagra2007.chatgpt.site';
   const absolute = value => typeof value === 'string' && value ? new URL(value, origin + '/').href : value;
   function photo(source) {
     const hosted = {...source, src:absolute(source.src)};
