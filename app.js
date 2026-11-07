@@ -5,7 +5,8 @@
     { name:'Portrait', label:'Portrait photography', id:'portraits', description:'People, presence, and the moments in between.' },
     { name:'Product', label:'Product photography', id:'product', description:'Form, texture, and the art of looking closer.' },
     { name:'Wildlife', label:'Wildlife photography', id:'wildlife', description:'A little closer to the natural world.' },
-    { name:'Macro', label:'Macro photography', id:'macro', description:'Small details. A different perspective.' }
+    { name:'Macro', label:'Macro photography', id:'macro', description:'Small details. A different perspective.' },
+    { name:'Architecture', label:'Architectural photography', id:'architecture', description:'Form, space, and the light between.' }
   ];
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const observer = 'IntersectionObserver' in window && !reducedMotion ? new IntersectionObserver(entries => entries.forEach(entry => {
@@ -57,7 +58,7 @@
         else { const empty=document.createElement('p'); empty.className='empty-collection'; empty.textContent='New photographs coming soon.'; grid.append(empty); }
         section.append(grid); gallery.append(section);
       });
-      document.querySelector('.section-count').textContent=String(photos.length).padStart(2,'0')+' photographs · 4 collections';
+      document.querySelector('.section-count').textContent=String(photos.length).padStart(2,'0')+` photographs · ${categories.length} collections`;
       window.PortfolioQuality?.initGallery(photos);
       window.PortfolioViewer?.init(photos);
       if(location.hash) { const target=document.getElementById(location.hash.slice(1)); if(target) requestAnimationFrame(()=>target.scrollIntoView({behavior:'instant',block:'start'})); }
