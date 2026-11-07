@@ -3,7 +3,6 @@
   const gallery = document.getElementById('gallery');
   const categories = [
     { name:'Portrait', label:'Portrait photography', id:'portraits', description:'People, presence, and the moments in between.' },
-    { name:'Product', label:'Product photography', id:'product', description:'Form, texture, and the art of looking closer.' },
     { name:'Wildlife', label:'Wildlife photography', id:'wildlife', description:'A little closer to the natural world.' },
     { name:'Macro', label:'Macro photography', id:'macro', description:'Small details. A different perspective.' },
     { name:'Architecture', label:'Architectural photography', id:'architecture', description:'Form, space, and the light between.' }
